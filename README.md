@@ -35,3 +35,10 @@ Includes total miles flown, flight frequency, credit balance, number of years wi
 - Use confusion matrix and accuracy to evaluate performance
 
 - Visualize neural network structure
+
+### Business Takeaways
+- Neural networks provided slightly better classification performance, but at the cost of interpretability.
+
+- Important predictors include: total miles flown, credit balance, and customer loyalty.
+
+- This model can help East-West Airlines target the most responsive customers, improving conversion rates and campaign ROI.
