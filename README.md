@@ -12,3 +12,26 @@ Target Variable:
 Predictor Variables:
 
 Includes total miles flown, flight frequency, credit balance, number of years with airline, age, and more.
+
+### Methodology
+#### 1. Data Preprocessing
+
+- Normalize all numerical predictors to (0,1)
+
+- Train-test split using caret
+
+- Visual inspection of variable distributions
+
+#### 2. Modeling
+
+- Train a single-hidden-layer neural network (neuralnet and nnet)
+
+- Try different numbers of hidden units
+
+- Compare with logistic regression as a baseline
+
+#### 3. Evaluation
+
+- Use confusion matrix and accuracy to evaluate performance
+
+- Visualize neural network structure
